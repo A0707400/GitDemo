@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Shubham Gupta/Mavenjava">
+        <classes>
+
+            <class name="qaclickacademy.SeleniumTest">
+                <methods>
+                    <include name="BrowserAutomation"/>
+                    <include name="elements"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
